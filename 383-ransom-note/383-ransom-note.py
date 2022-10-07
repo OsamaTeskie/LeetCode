@@ -10,17 +10,7 @@ class Solution:
             else:
                 dicts[letter] = 1
                 
-        
         for letter in dicts:
             if dicts[letter] > magazine.count(letter):
-                return False
-            
+                return False 
         return True
-    
-    
-    # x  =  set(ransomNote)
-    #     x  =  list(x)
-    #     for i in x :
-    #         if magazine.count(i)  <  ransomNote.count(i):
-    #             return False
-    #     return True
